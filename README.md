@@ -51,7 +51,7 @@ A Python-based arcade game suite controlled by hand gestures using an ESP32 and 
 Open a terminal in the folder and run:
 ```bash
 pip install pygame pyserial
-
+```
 Here is exactly what should be in your folder when you upload it to GitHub, followed by the fully updated README.md.
 
 📂 What Should Be In Your Folder?
@@ -83,7 +83,7 @@ Note: You do not need to upload the __pycache__ folder or the .json score files 
 📝 New README.md
 Create a file named README.md, delete everything in it, and paste this:
 
-Markdown
+Markdowns
 
 # 🎮 HuskyLens Arcade Control System
 
@@ -142,6 +142,7 @@ A Python-based arcade game suite controlled by hand gestures using an ESP32 and 
 Open a terminal in the folder and run:
 ```bash
 pip install pygame pyserial
+```
 3. Fix the COM Port (IMPORTANT)
 Your laptop might not use "COM12". We have a script to fix this automatically!
 
