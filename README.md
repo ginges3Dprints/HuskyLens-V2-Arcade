@@ -110,8 +110,8 @@ A Python-based arcade game suite controlled by hand gestures using an ESP32 and 
 7.  **Husky Hammer:** Classic Whack-a-Mole.
 8.  **angry birds game** for this game credit goes to Skicheng on github https://github.com/Skicheng/Huskylens2_angry_birds_game/tree/main
 9.  **Subway** for this to work you need to open subway surf in your browersan the Subway.py or run it from the launcher (very hard to play but lookin to make it better)
-10. **hill climb** for this to work you need to open hill climb in your browersan the hill_clim.py or run it from the launcher (hard to start but easy when do right)
-11. **fruit ninja** for this to work you need to open fruit ninja in your browersan the fruit_ninja.py (not tested yet)
+10.  **hill climb** for this to work you need to open hill climb in your browersan the hill_clim.py or run it from the launcher (hard to start but easy when do right)
+11.  **fruit ninja** for this to work you need to open fruit ninja in your browersan the fruit_ninja.py (not tested yet)
 
 ## 🛠️ Hardware Requirements
 
@@ -148,14 +148,14 @@ Your laptop might not use "COM12". We have a script to fix this automatically!
  1.Plug in your ESP32.
  2.Run the fixer script:
 
-  ```
+  ```bash
   python fix_ports.py
   ```
 It will detect your ESP32 and automatically update ALL game files to use the correct port.
 
 4. Test Tracking
 Run the visualizer to make sure your hand is detected correctly:
-  ```
+  ```bash
    python test_tracking.py
   ```
 Green Dot: Open Hand
@@ -166,7 +166,7 @@ Ensure you can reach all 4 corners of the white box.
 
 🚀 How to Play
 Run the main launcher to pick a game:
-   ```
+   ```bash
    python launcher.py
    ```
 Navigation: Move hand up/down to scroll.
