@@ -24,9 +24,9 @@ allowing you to play games by waving your hand and making a fist.
 6.  **Husky Breaker:** Brick breaker with a built-in calibration mode. Move the paddle freely to test tracking before launching the ball.
 7.  **Husky Hammer:** Classic Whack-a-Mole.
 8.  **angry birds game** for this game credit goes to Skicheng on github https://github.com/Skicheng/Huskylens2_angry_birds_game/tree/main
-9.  **Subway** for this to work you need to open subway surf in your browersan the Subway.py or run it from the launcher (very hard to play but lookin to make it better)
-10.  **hill climb** for this to work you need to open hill climb in your browersan the hill_clim.py or run it from the launcher (hard to start but easy when do right)
-11.  **fruit ninja** for this to work you need to open fruit ninja in your browersan the fruit_ninja.py (not tested yet)
+9.  **Subway** for this to work you need to open subway surf in your browser an then Subway.py or run it from the launcher (very hard to play but lookin to make it better)
+10.  **hill climb** for this to work you need to open hill climb in your browser an then hill_clim.py or run it from the launcher (hard to start but easy when do right)
+11.  **fruit ninja** for this to work you need to open fruit ninja in your browser an then fruit_ninja.py (not tested yet)
 
 ## 🛠️ Hardware Requirements
 
@@ -99,3 +99,4 @@ Hand jittery: Ensure good lighting. Avoid backlighting (don't sit with a window 
 
 📝 License
 Open Source. Built for education and fun!
+
