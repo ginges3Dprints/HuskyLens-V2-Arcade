@@ -142,7 +142,6 @@ A Python-based arcade game suite controlled by hand gestures using an ESP32 and 
 Open a terminal in the folder and run:
 ```bash
 pip install pygame pyserial
-```
 3. Fix the COM Port (IMPORTANT)
 Your laptop might not use "COM12". We have a script to fix this automatically!
 
