@@ -94,9 +94,8 @@ Exit Game: Press ESC or close the window to return to the launcher.
 🐛 Troubleshooting
 Game crashes immediately: Run python fix_ports.py again to ensure the COM port is correct.
 Hand jittery: Ensure good lighting. Avoid backlighting (don't sit with a window behind you).
-
 "Permission Denied": Close any other programs (like Arduino Serial Monitor) that might be using the ESP32.
-
+if you still need help join my discord an well try are best to help. https://discord.gg/Mv6mRAYqVP 
 📝 License
 Open Source. Built for education and fun!
 
