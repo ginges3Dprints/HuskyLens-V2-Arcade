@@ -1,5 +1,7 @@
 # 🎮 HuskyLens Arcade Control System
-
+---
+join my discord if you need help or want to see more projects that aint here yet. https://discord.gg/Mv6mRAYqVP
+---
 A Python-based arcade game suite controlled by hand gestures using an ESP32 and DFRobot HuskyLens. 
 This project replaces mouse/keyboard inputs with AI-powered vision tracking, 
 allowing you to play games by waving your hand and making a fist.
@@ -95,7 +97,6 @@ Exit Game: Press ESC or close the window to return to the launcher.
 Game crashes immediately: Run python fix_ports.py again to ensure the COM port is correct.
 Hand jittery: Ensure good lighting. Avoid backlighting (don't sit with a window behind you).
 "Permission Denied": Close any other programs (like Arduino Serial Monitor) that might be using the ESP32.
-if you still need help join my discord an well try are best to help. https://discord.gg/Mv6mRAYqVP 
 📝 License
 Open Source. Built for education and fun!
 
