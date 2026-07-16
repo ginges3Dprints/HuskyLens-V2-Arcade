@@ -48,57 +48,48 @@ allowing you to play games by waving your hand and making a fist.
 
 > **Setup Note:** Ensure HuskyLens "Protocol" setting is set to **I2C**.
 
-📦 Installation & Setup  
-1. Flash the ESP32  
-Open main_esp32/main_esp32.ino in Arduino IDE.  
+📦 Installation & Setup
+1. Flash the ESP32
+Open main_esp32/main_esp32.ino in Arduino IDE.
 
-Install the DFRobot_HuskyLens library.  
+Install the DFRobot_HuskyLens library.
 
-Upload code to your ESP32.  
+Upload the code to your ESP32 DevKit V1 board.
 
-2. Install Python Libraries  
-Open a terminal in the folder and run:  
+2. Install Python Libraries
+Open a terminal in the folder and run:
 
 Bash
 pip install pygame pyserial
-3. Fix the COM Port (IMPORTANT)  
-Plug in your ESP32.
-
-Run the fixer script:
-
-Bash
-python fix_ports.py
-It will detect your ESP32 and automatically update ALL game files to use the correct port.
-
 🚀 How to Play
-You have two options to launch the Arcade:
+1. Launch the Arcade
+Option A (Source): Run python HuskyArcade.py.
 
-Option A: Running from Source
-If you are developing or testing, run the launcher directly with Python:
+Option B (Executable): Double-click HuskyArcade.exe.
 
-Bash
-python HuskyArcade.py
-Option B: Using the Arcade Executable (Plug & Play)
-If you have built the application into an executable, simply double-click HuskyArcade.exe.
+2. Select Your Port (The Easy Way)
+When the Arcade opens, look for the Port Picker dropdown menu in the top left corner.
 
-Note: Ensure all game files (.py) and assets are in the same folder as the .exe for everything to load correctly.
+Make sure your ESP32 is plugged in.
 
-Navigation:
+Select your device from the dropdown list.
 
-Move your hand up/down to scroll through the game menu.
+The app will automatically connect and indicate "Ready" in green.
+No external fixer scripts are required!
+
+3. Navigation
+Move: Move your hand up/down to scroll through the menu.
 
 Select: Make a FIST to launch the selected game.
 
-Exit Game: Press ESC or close the game window to return to the launcher.
+Exit: Press ESC or close the game window to return to the menu.
 
 🐛 Troubleshooting
-Game Not Loading? Ensure that all game files (.py) are located in the same folder as HuskyArcade.exe.
+Port not appearing in dropdown? Ensure the ESP32 is plugged into a data-capable USB cable and that no other programs (like the Arduino Serial Monitor) are using the port.
 
-Game crashes immediately: Run python fix_ports.py again to ensure the COM port is correct.  
+Hand Jittery? Ensure good lighting and avoid backlighting (don't sit with a window behind you).
 
-Hand jittery: Ensure good lighting. Avoid backlighting (don't sit with a window behind you).  
-
-"Permission Denied": Close any other programs (like Arduino Serial Monitor) that might be using the ESP32.
+Game Not Loading? If running the .exe, ensure all game files (.py) remain in the same folder as HuskyArcade.exe.
 📝 License
 Open Source. Built for education and fun!
 
