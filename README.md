@@ -90,7 +90,7 @@ Port not appearing in dropdown? Ensure the ESP32 is plugged into a data-capable 
 Hand Jittery? Ensure good lighting and avoid backlighting (don't sit with a window behind you).
 
 Game Not Loading? If running the .exe, ensure all game files (.py) remain in the same folder as HuskyArcade.exe.
----
+
 📝 License
 Open Source. Built for education and fun!
 ---
